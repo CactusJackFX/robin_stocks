@@ -9,7 +9,7 @@ def login_url():
 
 
 def challenge_url(challenge_id):
-    return('https://api.robinhood.com/challenge/{0}/respond/'.format(challenge_id))
+    return('https://api.robinhood.com/challenge/{chalenge_id}/respond/'.format(challenge_id))
 
 # Profiles
 
